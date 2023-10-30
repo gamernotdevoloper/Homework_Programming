@@ -594,6 +594,10 @@ GameObject:
   - component: {fileID: 371426097}
   - component: {fileID: 371426098}
   - component: {fileID: 371426100}
+  - component: {fileID: 371426101}
+  - component: {fileID: 371426104}
+  - component: {fileID: 371426103}
+  - component: {fileID: 371426102}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -694,6 +698,59 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &371426101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371426096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa7a805730c85a48ba2a63661883e57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+--- !u!114 &371426102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371426096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5320bb0d62307cc4782877e4f2c9702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preFab: {fileID: 7854287240566403132, guid: 1ea6bd9350d50894899d6d0e9622592e, type: 3}
+  bulletTrash: {fileID: 1629114352}
+  bulletSpawn: {fileID: 1442179157}
+--- !u!114 &371426103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371426096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b423f0553edc4024e91a2ca2b21a2274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &371426104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371426096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1da729774199849817305372e55894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1884140213}
 --- !u!1 &396652744
 GameObject:
   m_ObjectHideFlags: 0
